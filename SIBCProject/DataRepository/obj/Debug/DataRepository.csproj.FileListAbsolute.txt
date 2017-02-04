@@ -1,0 +1,5 @@
+C:\Users\sathy_000\Documents\Visual Studio 2012\Projects\SIBCProject\DataRepository\bin\Debug\DataRepository.dll
+C:\Users\sathy_000\Documents\Visual Studio 2012\Projects\SIBCProject\DataRepository\bin\Debug\DataRepository.pdb
+C:\Users\sathy_000\Documents\Visual Studio 2012\Projects\SIBCProject\DataRepository\obj\Debug\DataRepository.csprojResolveAssemblyReference.cache
+C:\Users\sathy_000\Documents\Visual Studio 2012\Projects\SIBCProject\DataRepository\obj\Debug\DataRepository.dll
+C:\Users\sathy_000\Documents\Visual Studio 2012\Projects\SIBCProject\DataRepository\obj\Debug\DataRepository.pdb

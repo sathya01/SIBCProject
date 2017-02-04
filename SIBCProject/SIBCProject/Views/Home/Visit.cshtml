@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Visit";
+}
+
+<!DOCTYPE html>
+<html>
+
+ <body>
+<table >
+
+    <tr><td>
+Address:<br/>
+<br/>
+15241, 51st Avenue South <br/>
+Tukwila, WA 98188
+<br/>
+<br/>
+Phone:<br/>
+<br/>
+206-277-8399
+<br/>
+<br/>
+Visiting Hours:<br />
+8am-7pm
+<br/>        </td>
+<td>
+@section Scripts { 
+    <script type="text/javascript" 
+    src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+   
+} 
+
+<h2> Map & Directions </h2>
+<div id="map_canvas" style="width:600px; height:600px"; ></div>
+
+<script type="text/javascript">
+
+    function initialize() { 
+        var latlng = new google.maps.LatLng(47.465603, -122.271179);
+        var options = { zoom: 14, center: latlng, mapTypeId: google.maps.MapTypeId.ROADMAP }; 
+        var map = new google.maps.Map(document.getElementById("map_canvas"), options); 
+    }
+
+    $(function () { 
+        initialize(); 
+    }); 
+    
+</script>
+    </td> 
+        <td><h2> What to Wear: </h2>
+            <p>Dress modestly. Men and women should wear clean, comfortable white clothing that is not revealing, skin-tight or low-cut.
+Women should wear long skirts or dresses that cover well past their knees. 
+</p>             <h2> What to Bring: </h2>            <p>
+Please try to bring incense and flowers to offer buddha.
+</p>
+
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><a href="http://www.bing.com/maps/?cp=47.465603~-122.271179&amp;sty=r&amp;lvl=15&amp;where1=15241 51st Ave S, Seattle, WA 98188&amp;mm_embed=map&amp;form=LMLTEW">View Larger Map</a>
+            <a href="http://www.bing.com/maps/?cp=47.465603~-122.271179&amp;sty=r&amp;lvl=15&amp;rtp=~pos.47.465603_-122.271179_15241 51st Ave S, Seattle, WA 98188&amp;mm_embed=dir&amp;form=LMLTEW">Get Directions</a>
+            <a href="http://www.bing.com/maps/?cp=rx9v6c4t9nvd&amp;sty=b&amp;lvl=18&amp;where1=15241 51st Ave S, Seattle, WA 98188&amp;mm_embed=be&amp;form=LMLTEW">View Bird's Eye</a>
+        </td>
+    </tr>
+    </table>
+    </body>
+    </html>

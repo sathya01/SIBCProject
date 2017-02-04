@@ -1,0 +1,36 @@
+@inherits System.Web.Mvc.WebViewPage
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>*FLORAL*</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="~/Content/floral/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<img id="img_logo" alt="Logo" src="http://www.sibc-tukwila.org/img/logo.png") />
+     <div id="navcontainer">
+    <ul id="menu">
+
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Calendar", "Calendar", "Calendar")</li>
+                    <li>@Html.ActionLink("Get Involved", "GetInvolved", "Home")</li>
+                    <li>@Html.ActionLink("Visit", "Visit", "Home")</li>
+                    <li>@Html.ActionLink("Work with Us", "WorkwithUs", "UserRegistration")</li>
+                    <li>@Html.ActionLink("Resources", "Resources", "Home")</li>
+                    <li>@Html.ActionLink("Gallery", "Gallery", "Home")</li>
+                    <li>@Html.ActionLink("Food Items", "FoodItems", "Home")</li>
+    </ul>
+  </div>
+ 
+  <div id="content">
+   @RenderBody()
+  </div>
+  <div id="container-foot">
+    <div id="footer">
+      <p><a href="#">homepage</a> | <a href="mailto:denise@mitchinson.net">contact</a> | &copy; 2007 Anyone | Design by <a href="http://www.mitchinson.net"> www.mitchinson.net</a> | Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a></p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Gallery";
+}
+
+
+<html>
+
+<head>
+<script>
+
+   
+
+    var images = ['/Content/Images/newpic1.jpg', '/Content/Images/newpic2.jpg', '/Content/Images/newpic3.jpg', '/Content/Images/newpic4.jpg', '/Content/Images/newpic5.jpg', '/Content/Images/newpic6.jpg'];
+        var index = 0;
+
+        function buildImage() {
+            var img = document.createElement('img')
+            
+            img.src = images[index];
+            img.style.display = "block";
+            img.style.margin = "0 auto";
+            img.width = "600";
+            img.height = "400";
+
+            document.getElementById('content').appendChild(img);
+
+        }
+
+        function changeImage(){
+            var img = document.getElementById('content').getElementsByTagName('img')[0];
+
+
+            index++;
+            index = index % images.length; // This is for if this is the last image then goto first image
+            img.src = images[index];
+        }
+
+</script>
+</head>
+
+<body onload="buildImage();">
+
+    <div class="contents" id="content" > </div>
+    <button onclick="changeImage()" style="display:block; margin:0 auto"; >NextImage </button>
+
+
+
+</body>
+</html>
+
+
+

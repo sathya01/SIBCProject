@@ -1,0 +1,26 @@
+﻿@model SIBCProject.Models.UserRegistration
+
+@{
+    ViewBag.Title = "WorkwithUs";
+}
+
+<h2>@ViewBag.Message</h2>
+
+
+
+<p>Thank you for your interest in SIBC.You will find SIBC to be a warm and welcoming community.As a new member, 
+    your participation is especially welcomed and encouraged as a way to get involved and meet other members.
+    To assist us in getting to know you,please enter the following member information and submit.</p>
+
+<h2> Member Information </h2>
+
+   
+
+@using (Html.BeginForm("WorkwithUs", "UserRegistration", FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <br />
+    <input type="submit" value="Submit" />
+    
+}
+

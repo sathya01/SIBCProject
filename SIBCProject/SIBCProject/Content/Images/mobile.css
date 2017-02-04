@@ -1,0 +1,320 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+#header{
+width:auto;
+}
+
+@media screen{
+
+#page-container{
+width:500px;
+}
+
+#header{
+margin:0;
+width:500px;
+height:90px;
+}
+
+#header #logo{
+margin-left:0;
+padding:0;
+}
+
+.calendarpage{
+position:absolute;
+margin-left:0px;
+margin-top:30px;
+width:500px;
+float:left;
+overflow:hidden;
+height:1900px;
+font-size:x-small;
+}
+
+#loginalign{
+position:absolute;
+right:5px;
+top:-40px;
+}
+
+ul#navigation{
+width:auto;
+margin:0;
+padding-top:60px;
+padding-left:0px;
+float:left;
+}
+
+ul#navigation li {
+font-size:xx-small;
+}
+
+
+ul#navigation li.galleryMenu{
+display:none;
+}
+
+
+#inputsize{
+width:140px;
+}
+
+.calendarpage{
+margin:0;
+margin-top:20px;
+width:500px;
+}
+
+.span-12{
+width:auto;
+}
+
+.span-11{
+width:auto;
+}
+
+ul#navigation li {
+width:auto;
+}
+.pageheight{
+height:1100px;
+}
+.pageheight1{
+height:1550px;
+}
+
+.pageheight6{
+height:1000px;
+}
+
+.pageheight4{
+height:1000px;
+}
+
+#pagecontent{
+margin:0;
+margin-top:20px;
+width:500px;
+}
+
+#pagecontent #middlecontent {
+    margin-left: 100px;
+    width: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#pagecontent #rightcontent{
+width:100px;
+font-size:x-small;
+}
+
+#pagecontent #rightcontent #mainrightmenu{
+width:100px;
+margin:0;
+text-align:center;
+height:350px;
+padding-top:40px;
+}
+
+#pagecontent #rightcontent #box{
+position:absolute;
+width:100px;
+height:440px;
+border-radius:5px;
+border:1px gray solid;
+right:0px;
+}
+
+#facebook{
+position:absolute;
+margin-top:450px;
+right:35px;
+width:60px;
+height:82px;
+}
+
+#facebooktext{
+
+position:absolute;
+margin-top:400px;
+width:100px;
+
+font-family:courier;
+font-weight:bold;
+color:blue;
+text-align:center;
+}
+
+#leftmenucontent{
+margin-left:0;
+width:100px;
+padding-top:8px;
+padding-bottom:4px;
+}
+
+#leftmenu2{
+font-size:x-small;
+position:absolute;
+
+width: 100px;
+
+border: 1px solid black;
+border-radius: 5px; 
+background-color:silver;
+align: left;
+padding-bottom:7px;
+}
+
+#leftmenu2 ul{
+margin-left:4px;
+padding:0;
+}
+
+#mainrightmenu{
+margin-right:0;
+width:70px;
+}
+
+hr{
+width:100%;
+}
+
+.picsize{
+width:78px;
+height:62px;
+}
+
+.dhampicsize{
+width:104px;
+height:146px;
+}
+
+.buddhapicsize{
+width:78px;
+height:108px;
+}
+
+.logosize{
+width:64px;
+height:58px;
+}
+
+.barsize{
+width:100px;
+}
+
+.workpicsize{
+width:100;
+height:174px;
+}
+
+a#smalltextsize{
+font-size:x-small;
+}
+
+#leftmenu{
+width:100px;
+margin-left:0;
+font-size:x-small;
+-moz-border-radius: 5px; 
+-webkit-border-radius:5px; 
+border-radius: 5px; 
+}
+
+#leftmenu ul li{
+margin-left:5px;
+text-align:left;
+}
+
+#row1{
+width:120px;
+height:20px;
+font-size:small;
+}
+
+#row2{
+width:120px;
+height:70px;
+font-size:small;
+}
+
+.membertablesize{
+width:400px;
+font-size:xx-small;
+}
+
+.picsizetable1{
+width:116px;
+height:68px;
+}
+
+.center{
+text-align:left;
+}
+
+
+.heading1 {
+    font-size: xx-large;  
+    font-weight:normal;
+}
+
+.heading2{
+    font-size: x-large;
+    font-weight:normal;
+}
+
+.contenttextformat{
+font-size:small;
+margin-left:20px;
+}
+
+.menutextformat{
+margin-left:17%;
+color:white;
+text-decoration:none;
+}
+
+.margin1{
+margin-left:20px;
+font-size:small;
+}
+
+.margin2{
+margin-left:5px;
+font-size:small;
+}
+
+
+.tablealign{
+position:absolute;
+left:25px;
+} 
+
+table.phpc-main {
+  width: 100%;
+}
+
+.phpc-navbar {
+  margin: .5em 0;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #CCC;
+  padding: 4px;
+margin-left:0px;
+margin-right:0px;
+}
+
+.margin{
+    text-align: justify;
+}
+
+#footer{
+
+}
+
+}
+
